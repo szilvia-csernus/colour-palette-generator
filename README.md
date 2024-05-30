@@ -11,21 +11,30 @@ Simple Flask project using OpenAI's ChatGPT 3.5-turbo LLM to generate colour pal
 ## How to run this project?
 
 
-1. Make sure you have Python installed.
+0. Prerequisites: 
 
-2. Clone the project.
+    - Make sure Python3 is installed.
+    - If you don't have an account with OpenAI, create one here: https://openai.com/
+    - Create a project API key under Dashboard / API keys
 
-3. Create a virtual environment inside the project folder:
+1. Clone the project.
+
+2. Create a virtual environment inside the project folder:
 
     `python -m venv venv`
 
-4. Activate the virtual environment:
+3. Activate the virtual environment:
 
 
     Mac: `venv/bin/activate`
 
 
     Windows: `venv\Scripts\activate`
+
+
+4. Create an `.env` file in the root folder and add your project's API key:
+
+    `OPENAI_API_KEY=your-unique-opanai-project-key`
 
 
 5. Install the python dependencies:
