@@ -19,9 +19,9 @@ def get_colors(input_text):
     Desired Format: a JSON array of hexadecimal color codes. Don't include json formatting. Include # in front of the hex codes.
     """
     user_prompt1 = "Ocean tones"
-    assistant_answer = ["#0077be", "#4f819d", "#a8c4d0", "#61a0a8", "#2b6d84"]
+    assistant_answer = '["#0077be", "#4f819d", "#a8c4d0", "#61a0a8", "#2b6d84"]'
     
-    user_prompt2 = {input_text}
+    user_prompt2 = input_text
     
     response = openai.chat.completions.create(
         model="gpt-3.5-turbo",
