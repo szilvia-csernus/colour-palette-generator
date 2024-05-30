@@ -26,7 +26,7 @@ Simple Flask project using OpenAI's ChatGPT 3.5-turbo LLM to generate colour pal
 3. Activate the virtual environment:
 
 
-    Mac: `venv/bin/activate`
+    Mac: `source venv/bin/activate`
 
 
     Windows: `venv\Scripts\activate`
